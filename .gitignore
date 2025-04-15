@@ -1,0 +1,81 @@
+# ASP.NET Core
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+.vs/
+
+# Entity Framework
+Migrations/
+
+# ASP.NET Secret Manager files
+*.secret.json
+
+# User-specific files
+*.swp
+*.log
+*.tmp
+*.bak
+*.ncb
+*.cache
+*.dbmdl
+*.pdb
+*.mdb
+*.opendb
+*.pidb
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+.vscode/*
+
+# dotnet CLI
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet
+*.nupkg
+packages/
+*.snupkg
+
+# Logs
+*.log
+Logs/
+
+# ASP.NET Publish
+wwwroot/
+publish/
+*.pubxml
+*.Publish.xml
+
+# React/Node.js
+**/node_modules/
+**/build/
+**/dist/
+**/.env
+**/.env.local
+**/.env.development
+**/.env.production
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# React IDE files
+*.idea/
+*.DS_Store
+
+# Optional: ignore SQLite DB
+*.db
+*.sqlite
+*.sqlite3
+
+# OS-generated files
+Thumbs.db
+.DS_Store
