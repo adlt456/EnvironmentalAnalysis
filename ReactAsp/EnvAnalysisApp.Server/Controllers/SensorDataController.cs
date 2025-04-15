@@ -24,7 +24,6 @@ public class SensorDataController : ControllerBase
     {
         var ret = _context.SensorReadings.Add(data);
         log.Info(ret);
-        log.Info("yooooooooooooo");
         await _context.SaveChangesAsync();
         return Ok();
     }
